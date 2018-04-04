@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="rithiksingh098.smartaadhaar.loginsignup">
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/spin"
+        android:entries="@array/language"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/spin"
+        android:src="@mipmap/logo1"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/finger"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/logo"
+        android:src="@mipmap/finger"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Create New Account"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/create"
+        android:layout_below="@+id/finger"
+        android:background="#D62631"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/return_login"
+        android:padding="15dp"
+        android:gravity="center"
+        android:text="Login"
+        android:layout_below="@+id/create"
+        android:textSize="15dp"
+        android:textColor="#D62631" />
+</RelativeLayout>

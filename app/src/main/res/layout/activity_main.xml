@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aadhaar_header"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:text="Your Aadhaar Number is : "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aadhaar_display"
+        android:layout_below="@+id/aadhaar_header"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/edit_profile"
+        android:text="Edit Profile"
+        android:textStyle="bold"
+        android:background="#D62631"
+        android:textColor="#fff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Password"
+        android:id="@+id/edit_password"
+        android:textStyle="bold"
+        android:layout_below="@+id/edit_profile"
+        android:layout_marginTop="30dp"
+        android:background="#D62631"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/faq"
+        android:padding="15dp"
+        android:text="FAQs"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp"
+        android:textColor="#D62631" />
+</RelativeLayout>

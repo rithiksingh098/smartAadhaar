@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rithiksingh098.smartaadhaar.FAQ">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:id="@+id/thanks"
+    android:text="Thank you for installing smartAadhaar application on your mobile device! Please refer the guidelines below:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/rith"
+        android:layout_below="@+id/thanks"
+        android:textStyle="bold"
+        android:text="This app is made by RITHIK SINGH under the project SMART CITY DEVELOPEMENT to address the concern that public annoyance over time consuming procedures was reflecting poorly on the government even though it had not sought Aadhaar linkage to phones."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copy"
+        android:layout_below="@+id/rith"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="1. Application will ask for password as soon as it is opened as the first step. User should enter a password of any number of digits number. e.g. 1234
+
+\n2. Aadhaar profile can be downloaded only on mobile devices having registered mobile number (Registered mobile number is the mobile number linked with your Aadhaar)
+
+\n3. Please do not navigate from application if it is waiting for SMS. mAadhaar will automatically read the OTP once it is received.
+
+\n4. There is no provision to manually enter the OTP anywhere in mAadhaar. This is a security feature.
+
+\n5. mAadhaar needs to connect and download data from UIDAI.So ensure that internet connectivity is available on your phone.
+
+\n6. One Aadhaar profile can be active on only one device at a time. If you create profile on another device by inserting the sim in another device, the previous profile would become inactive and would be deleted from older device whenever any operation is attempted.
+
+\n7. If members of your family have the same mobile number registered as you in their Aadhaar, you can add their profile in your device.
+
+\n8. A user can add maximum 3 profiles in his device, all having same mobile number registered in their Aadhaar."/>
+
+
+
+</RelativeLayout>
